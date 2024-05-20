@@ -1,0 +1,35 @@
+.title{
+    padding: 4rem 0px;
+    text-align: center;
+    border-bottom: 1px black dashed;
+}
+.title h1{
+    color: black;
+    background-image: linear-gradient(white,white,orange);
+     width: 20%;
+     margin: auto;
+}
+.title h1:hover {
+    background-image: linear-gradient(white,white,orange,orange);
+}
+.sub-title{
+    text-align: center;
+    padding-top: 1.5rem;
+}
+.sub-title .s1{
+     color: rgb(1, 146, 1);
+}
+.sub-title .s2{
+    color: rgb(0, 255, 50);
+}
+.sub-title .s3{
+    color: greenyellow;
+}
+.but{
+    width: 20%;
+    margin: auto;
+}
+.form-border{
+    border-bottom: 1px black dashed;
+    margin-bottom: 1.5rem;
+}

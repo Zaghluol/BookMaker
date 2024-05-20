@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Bookmarker</h1>
+        </div>
+        <div class="sub-title">
+            <h3> <span class="s1"><i class="fa-solid fa-bookmark"></i>
+                Bookmark </span>
+                <span class="s2">your favo</span><span class="s3">rite sites 
+                    <i class="fa-solid fa-bookmark"></i></span>
+                </h3>
+        </div>
+    <div class="container py-5 form-border">
+        <form>
+
+            <div class="mb-3">
+                <label class="fw-bold py-2" for="siteName">
+                    <i class="fa-solid fa-book-bookmark mx-1"></i> Site Name</label>
+                <input class="form-control" onkeydown="func1()" type="text" name="siteName" id="siteName">
+            </div>
+            <div class="mb-3">
+                <label class="fw-bold py-2" for="siteUrl">
+                   <i class="fa-solid fa-link mx-1"></i> Site URL</label>
+                <input class="form-control" onkeydown="func2()" type="url" name="siteUrl" id="siteUrl">
+            </div>
+             <div class="but">
+                <button  data-bs-toggle="modal" data-bs-target="#exampleModal1" onclick="addProduct()" type="button" 
+            class="btn btn-danger px-5">submit</button>
+             </div>
+             <div id="model"></div>
+        </form>
+        </div>
+        <table class="table table-bordered text-center align-middle table-striped">
+
+            <thead>
+             
+                <tr>
+                    <th>Index</th>
+                    <th>Website Name</th>
+                    <th>Visit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+    
+            <tbody id="myData">
+               <!-- <tr>
+        <td>0</td>
+        <td><img src="images/1.jpg" class="col-2" alt=""></td>
+        <td>Nokia</td>
+        <td>8000</td>
+        <td>mobile</td>
+        <td>true</td>
+        <td>Gooood</td>
+        <td>
+            <button class="btn btn-outline-warning">Update</button>
+        </td>
+        <td>
+            <button class="btn btn-outline-danger">Delete</button>
+        </td>
+    </tr> -->
+        
+            </tbody>
+        </table>
+    </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
